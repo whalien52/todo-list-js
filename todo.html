@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<head>
+    <head>
+        <script src="appToDo.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+        <style>
+            body{background-color:#00cec9;}
+            body h1, form {text-align: center;}
+            h1 {font-size:3em;font-family: 'Amatic SC', cursive;color:#ff7675;margin-bottom:10px;}
+            input {height:50px;border: none;border-bottom: 1px solid gray; margin-right: 10px;width: 300px;}
+            li {color:#00cec9;font-size:2em;border-bottom:1px dotted gray;padding-top:10px;padding-bottom:10px;}
+            #container{width:50%;margin:0 auto;background-color:white;padding-bottom:20px;}
+            ul {list-style-type:circle;width:90%;}
+            .done {text-decoration: line-through;color:lightgray}
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>To do:</h1>
+            <form>
+                <input type="text" name="todoitem"><button>+</button>
+            </form>
+            <ul id="todoitems">
+                <li>Task 1</li>
+                <li>A second task</li>
+                <li class="done">this one is done!</li>
+                <li>dbl click to delete</li>
+                <li>click once to mark as done</li>
+            </ul>
+        </div>
+    </body>
+</head>
